@@ -1,11 +1,16 @@
 # My Dev Environment
 
 ## OSX Setup
+
   1. Install xcode
+
   $ `xcode-select --install`
 
+
   2. Install homebrew
+
   $ `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
 
 ## Homebrew
 ### Setup
