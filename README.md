@@ -2,14 +2,10 @@
 
 ## OSX Setup
   1. Install xcode
-  `bash
-  xcode-select --install
-  `
-  2. Install homebrew
-  `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-  2. Install homebrew
-  `bash ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+  $ `xcode-select --install`
 
+  2. Install homebrew
+  $ `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 ## Homebrew
 ### Setup
