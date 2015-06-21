@@ -1,1 +1,5 @@
-# my_dev_environment
+# My Dev Environment
+
+## Homebrew
+
+## Atom
