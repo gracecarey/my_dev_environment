@@ -17,6 +17,7 @@
 * __Install:__ $`brew install git`
 * __Confirm install:__ $`git --version`
 * __Github for Mac download:__ [Github site](https://mac.github.com/)
+* __Add file/dir to gitignore:__ `echo venv/ >> .gitignore`
 
 ### Markdown
 * [Markdown basics](https://help.github.com/articles/markdown-basics/)
@@ -33,6 +34,9 @@ Drag file into chrome
 * __Install atom packages from file:__ $`apm install --packages-file apm-package-list.txt`
 * __Update atom packages file:__ $`apm list --installed --bare > apm-package-list.txt`
 
+### Pip (Python package installer)
+* __Save current packages to requirements file:__ $`pip freeze > requirements.txt`
+ 
 ### Python Virtual Environment
 * __Install venv package:__ $`pip install virtualenv`
 * __Create new virtual environment:__ $`virtualenv venv`
