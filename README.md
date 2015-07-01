@@ -32,3 +32,9 @@ Drag file into chrome
 * __Install package:__ $`apm install [package_name]`
 * __Install atom packages from file:__ $`apm install --packages-file apm-package-list.txt`
 * __Update atom packages file:__ $`apm list --installed --bare > apm-package-list.txt`
+
+### Python Virtual Environment
+* __Install venv package:__ $`pip install virtualenv`
+* __Create new virtual environment:__ $`virtualenv venv`
+* __Enter virtual environment:__ $`source venv/bin/activate`
+* __Exit virtual environment:__ $`deactivate`
