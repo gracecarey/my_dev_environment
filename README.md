@@ -36,6 +36,7 @@ Drag file into chrome
 
 ### Pip (Python package installer)
 * __Save current packages to requirements file:__ $`pip freeze > requirements.txt`
+* __Publishing a package tutorial__: http://peterdowns.com/posts/first-time-with-pypi.html
  
 ### Python Virtual Environment
 * __Install venv package:__ $`pip install virtualenv`
