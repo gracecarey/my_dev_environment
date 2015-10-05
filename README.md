@@ -19,10 +19,11 @@
 * __Github for Mac download:__ [Github site](https://mac.github.com/)
 
 ### Markdown
-* [Markdown basics](https://help.github.com/articles/markdown-basics/)
-* [Github flavored markup (GMF)](https://help.github.com/articles/github-flavored-markdown/)
-* [Language specific code highlighting](http://pygments.org/docs/lexers/) - e.g. 'bash'
-* [Chrome markdown preview app](https://chrome.google.com/webstore/detail/markdown-preview/jmchmkecamhbiokiopfpnfgbidieafmd/related)
+* [Markdown basics docs](https://help.github.com/articles/markdown-basics/)
+* [Github flavored markdown (GMF) docs](https://help.github.com/articles/github-flavored-markdown/)
+* [Gitbhub flavored markdown Chrome plugin](https://chrome.google.com/webstore/detail/github-flavored-markdown/faelggnmhofdamhdegcdhhemfokkfngk?hl=en)
+  - In Chrome > preferences, check Allow access to file URL's to view local files
+* [Language specific code highlighting docs](http://pygments.org/docs/lexers/) - e.g. 'bash'
   After install, check "Allow access to file URLs" in Preferences > Extensions > Markdown Preview
 Drag file into chrome
 
@@ -32,3 +33,8 @@ Drag file into chrome
 * __Install package:__ $`apm install [package_name]`
 * __Install atom packages from file:__ $`apm install --packages-file apm-package-list.txt`
 * __Update atom packages file:__ $`apm list --installed --bare > apm-package-list.txt`
+
+### Sublime Text 3 (IDE)
+* __Package control__: Install manually (https://packagecontrol.io/docs/usage)
+* __Install packages__: cmd+shift+P (type 'install', 'list')
+* __Sublime text base settings__: sublime-settings-preferences-user.json. Modified from [mjhea0's repo](https://github.com/mjhea0/sublime-setup-for-python/blob/master/dotfiles/Preferences.sublime-settings)
