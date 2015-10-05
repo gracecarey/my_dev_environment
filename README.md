@@ -42,15 +42,16 @@ Drag file into chrome
 * __Install subl command__: `sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/bin/subl`
 * __Save project__: Project > Save Project As... (create PROJECT-NAME.sublime-workspace and PROJECT-NAME.sublime-project)
 * __Edit project__: Edit PROJECT-NAME.sublime-project file. Include settings:
-  ```json
-  "settings":
-  {
-    "anaconda_gutter_theme": "Bright",
-    "python_interpreter": "/full/path/to/project/venv/bin/python"
-  }```
+```json
+"settings":
+{
+  "anaconda_gutter_theme": "Bright",
+  "python_interpreter": "/full/path/to/project/venv/bin/python"
+}```
+
 * __Open project with subl command line tool__: subl PROJECT-NAME.sublime-workspace
-* __Preferences > Settings > User (base settings)__: Modified from [mjhea0's base settings](https://github.com/mjhea0/sublime-setup-for-python/blob/master/dotfiles/Preferences.sublime-settings)
-* __Preferences > More(to create) or Browse Packages > Python.sublime-settings__: Modified from [mjhea0's Python settings](https://github.com/mjhea0/sublime-setup-for-python/blob/master/dotfiles/Python.sublime-settings)
+* __Preferences > Settings > User (base settings)__: Modified from [mjhea0 base settings](https://github.com/mjhea0/sublime-setup-for-python/blob/master/dotfiles/Preferences.sublime-settings)
+* __Preferences > More(to create) or Browse Packages > Python.sublime-settings__: Modified from [mjhea0 Python settings](https://github.com/mjhea0/sublime-setup-for-python/blob/master/dotfiles/Python.sublime-settings)
 
 ### Pip (Python package installer)
 * __Save current packages to requirements file:__ $`pip freeze > requirements.txt`
