@@ -19,11 +19,10 @@
 * __Github for Mac download:__ [Github site](https://mac.github.com/)
 
 ### Markdown
-* [Markdown basics docs](https://help.github.com/articles/markdown-basics/)
-* [Github flavored markdown (GMF) docs](https://help.github.com/articles/github-flavored-markdown/)
-* [Gitbhub flavored markdown Chrome plugin](https://chrome.google.com/webstore/detail/github-flavored-markdown/faelggnmhofdamhdegcdhhemfokkfngk?hl=en)
-  - In Chrome > preferences, check Allow access to file URL's to view local files
-* [Language specific code highlighting docs](http://pygments.org/docs/lexers/) - e.g. 'bash'
+* [Markdown basics](https://help.github.com/articles/markdown-basics/)
+* [Github flavored markup (GMF)](https://help.github.com/articles/github-flavored-markdown/)
+* [Language specific code highlighting](http://pygments.org/docs/lexers/) - e.g. 'bash'
+* [Chrome markdown preview app](https://chrome.google.com/webstore/detail/markdown-preview/jmchmkecamhbiokiopfpnfgbidieafmd/related)
   After install, check "Allow access to file URLs" in Preferences > Extensions > Markdown Preview
 Drag file into chrome
 
